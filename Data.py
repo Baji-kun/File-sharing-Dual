@@ -9,17 +9,17 @@ class Data:
     HELP = """
 <b> ❏ BOT COMMAND
  ├ /start - Start Bot or Get Posts
- ├ /about - Bot Details
- ├ /help - Menu
- ├ /ping - Bot Ping
- └ /uptime - Bot Uptime
+ ├ /about - About This Bot
+ ├ /help - Help Command
+ ├ /ping - To Check Bot Alive or dead
+ └ /uptime - Bot Status
  
  ❏ ADMIN COMMAND
  ├ /logs - Bot Logs
  ├ /setvar - [Admin Command]
  ├ /delvar - [Admin Command]
  ├ /getvar - [Admin Command]
- ├ /users - bot users
+ ├ /users - Bot users
  ├ /batch - Create Link 
  ├ /speedtest - Bot Speed
  └ /broadcast - Broadcast Messages
