@@ -24,7 +24,7 @@ async def _about(client: Bot, msg: Message):
 async def _help(client: Bot, msg: Message):
     await client.send_message(
         msg.chat.id,
-        "<b>How to Use This Bot 👇</b>\n" + Data.HELP,
+        "<b>Help</b>\n" + Data.HELP,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(Data.buttons),
     )
@@ -45,7 +45,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     elif data == "help":
         try:
             await query.message.edit_text(
-                text="<b>How to Use This Bot 👇</b>\n" + Data.HELP,
+                text="<b>Help</b>\n" + Data.HELP,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
