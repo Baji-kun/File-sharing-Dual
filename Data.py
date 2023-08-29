@@ -48,7 +48,7 @@ class Data:
     ABOUT = """
 <b>Bot About:
 
-@{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
+@{} I can store private files in Specified Channel and other users can access it from special link.
 
  • Creator: @{}
  • Anime Movie: <a href='https://t.me/Anime_and_Animation_Movies'>Anime Movie</a>
