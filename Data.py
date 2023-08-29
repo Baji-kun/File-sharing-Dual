@@ -7,14 +7,14 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❏ BOT COMMAND
+<b> ❏ Bot User Commands
  ├ /start - Start Bot or Get Posts
  ├ /about - About This Bot
  ├ /help - Help Command
  ├ /ping - To Check Bot Alive or dead
  └ /uptime - Bot Status
  
- ❏ ADMIN COMMAND
+ ❏ Admin Commands
  ├ /logs - Bot Logs
  ├ /setvar - [Admin Command]
  ├ /delvar - [Admin Command]
