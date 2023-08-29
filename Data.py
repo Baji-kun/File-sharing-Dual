@@ -6,7 +6,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 class Data:
-    HELP = """
+    HELP = """ How to Use This Bot
 <b> ❏ Bot User Commands
  ├ /start - Start Bot or Get Posts
  ├ /about - About This Bot
