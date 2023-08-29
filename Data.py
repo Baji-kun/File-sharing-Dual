@@ -6,7 +6,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 class Data:
-    HELP = """ How to Use This Bot
+    HELP = """
 <b> ❏ Bot User Commands
  ├ /start - Start Bot or Get Posts
  ├ /about - About This Bot
@@ -33,7 +33,7 @@ class Data:
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+            InlineKeyboardButton("Help", callback_data="help"),
             InlineKeyboardButton("CLOSE", callback_data="close")
         ],
     ]
