@@ -10,7 +10,7 @@ class Data:
 <b> ❏ BOT COMMAND
  ├ /start - Start Bot or Get Posts
  ├ /about - Bot Details
- ├ /help - If you Facing any issue Click on Help
+ ├ /help - Menu
  ├ /ping - Bot Ping
  └ /uptime - Bot Uptime
  
@@ -20,7 +20,7 @@ class Data:
  ├ /delvar - [Admin Command]
  ├ /getvar - [Admin Command]
  ├ /users - bot users
- ├ /batch - Create Link for More Than One Posts
+ ├ /batch - Create Link 
  ├ /speedtest - Bot Speed
  └ /broadcast - Broadcast any Message to Bot users
 
@@ -51,8 +51,8 @@ class Data:
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
  • Creator: @{}
- • Anime Movie: <a href='https://t.me/Anime_and_Animation_Movies'</a>
- • Source Code: <a href='https://t.me/Anime_Wide'</a>
+ • Anime Movie: <a href='https://t.me/Anime_and_Animation_Movies'>Anime Movie</a>
+ • Anime Channel: <a href='https://t.me/Anime_Wide'>Anime Wide</a>
 
 👨‍💻 Develoved by </b><a href='https://t.me/Netflix_Dual'>@Itz_Zeno</a>
 """
