@@ -45,7 +45,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     elif data == "help":
         try:
             await query.message.edit_text(
-                text="<b>Cara Menggunakan Bot ini</b>\n" + Data.HELP,
+                text="<b>How to Use This Bot 👇</b>\n" + Data.HELP,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(Data.buttons),
             )
