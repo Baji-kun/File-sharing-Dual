@@ -22,7 +22,7 @@ class Data:
  ├ /users - bot users
  ├ /batch - Create Link 
  ├ /speedtest - Bot Speed
- └ /broadcast - Broadcast any Message to Bot users
+ └ /broadcast - Broadcast Messages
 
 👨‍💻 Develoved by </b><a href='https://t.me/Netflix_Dual'>@Itz_Zeno</a>
 """
