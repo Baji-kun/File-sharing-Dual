@@ -18,7 +18,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+                InlineKeyboardButton(text="Join 1st Channel", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton(text="Help", callback_data="help"),
@@ -29,7 +29,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                InlineKeyboardButton(text="Join 2nd Channel", url=client.invitelink),
             ],
             [
                 InlineKeyboardButton(text="Help", callback_data="help"),
@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Help", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+                InlineKeyboardButton(text="Anime Wide", url=client.invitelink),
+                InlineKeyboardButton(text="Netflix", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="Close", callback_data="close")],
         ]
@@ -73,7 +73,7 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                InlineKeyboardButton(text="Join Now", url=client.invitelink),
             ],
         ]
         try:
@@ -91,8 +91,8 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+                InlineKeyboardButton(text="Join Now", url=client.invitelink),
+                InlineKeyboardButton(text="ᴊoin Now", url=client.invitelink2),
             ],
         ]
         try:
