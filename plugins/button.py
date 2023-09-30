@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Help", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="Anime Wide", url=client.invitelink),
-                InlineKeyboardButton(text="Netflix", url=client.invitelink2),
+                InlineKeyboardButton(text="Animeze", url=client.invitelink),
+                InlineKeyboardButton(text="Back-Up", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="Close", callback_data="close")],
         ]
@@ -99,7 +99,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                        text="Try Again",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
