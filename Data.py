@@ -15,10 +15,6 @@ class Data:
  └ /uptime - Bot Status
  
  ❏ Admin Commands
- ├ /logs - Bot Logs
- ├ /setvar - [Admin Command]
- ├ /delvar - [Admin Command]
- ├ /getvar - [Admin Command]
  ├ /users - Bot users
  ├ /batch - Create Link 
  ├ /speedtest - Bot Speed
