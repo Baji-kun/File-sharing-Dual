@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Help", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="Animeze", url=client.invitelink),
-                InlineKeyboardButton(text="Back-Up", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                InlineKeyboardButton(text="ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="Close", callback_data="close")],
         ]
