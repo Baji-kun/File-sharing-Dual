@@ -74,7 +74,7 @@ async def link_generator(client: Client, message: Message):
     while True:
         try:
             channel_message = await client.ask(
-                text="<b>Forward the Last Message from DB Channel (Forward with Qoute)</b>\n\n<b>or Send the DB Channel Post Link</b>",
+                text="<b>Forward the Message from DB Channel (Forward with Qoute)</b>\n\n<b>or Send the DB Channel Post Link</b>",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
