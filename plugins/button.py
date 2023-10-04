@@ -92,7 +92,7 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 1", url=client.invitelink),
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 2", url=f"https://t.me/+ydBvrBhWcmkzNWI1",
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink),
             ],
         ]
         try:
@@ -100,7 +100,7 @@ def fsub_button(client, message):
                 [
                     InlineKeyboardButton(
                         text="ᴛʀʏ ᴀɢᴀɪɴ",
-                        url=f"https://t.me/{client.username}?start={message.command[1]}",
+                        url=f"https://t.me/+ydBvrBhWcmkzNWI1{client.username}?start={message.command[1]}",
                     )
                 ]
             )
